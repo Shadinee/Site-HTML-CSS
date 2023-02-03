@@ -1,0 +1,44 @@
+/* fleche haut de page */
+.btn {
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.newsletter button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter button[type="submit"]:hover {
+  background-color: #555;
+}
+
+}
+header button{
+    padding: 10px 20px;
+    background-color: white;
+    color:white;
+    border-radius: 15px;
+    border-color: #6444AD;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
